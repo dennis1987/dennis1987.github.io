@@ -1,0 +1,154 @@
+<xml xmlns="http://www.w3.org/1999/xhtml"><block type="factory_base" id="IG72deBTIA43Rh7[z]op" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">novaclient</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="m)OG#7m2Gaq.$94yom]H">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="I#f(QYe)BMqKAPZ(k7P`">
+            <field name="TEXT">novaclient</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_dummy" id="[~NHrPFZD*O3ED#aZnvY">
+            <field name="ALIGN">LEFT</field>
+            <next>
+              <block type="input_dummy" id="M|4f8Ug;!=M3aT/H-DNu">
+                <field name="ALIGN">LEFT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="cOxvgocr1dUHoogFn=A]">
+                    <field name="TEXT">Version </field>
+                    <next>
+                      <block type="field_number" id="N,!mi])Q4;,jPQV|)D1-">
+                        <field name="VALUE">1</field>
+                        <field name="FIELDNAME">Version </field>
+                        <field name="MIN">1</field>
+                        <field name="MAX">3</field>
+                        <field name="PRECISION">0</field>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="input_value" id="%t/WZ#-|=HlVGvS-iJ@=">
+                    <field name="INPUTNAME">USERNAME</field>
+                    <field name="ALIGN">LEFT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="fZS^iN2Y$}Sg@#,@(:=S">
+                        <field name="TEXT">Username</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="aq}AG/N!Gyo,@?5cwN,G"></shadow>
+                      <block type="type_string" id="^j;5sOs9-W73s[%oBI{;"></block>
+                    </value>
+                    <next>
+                      <block type="input_value" id="m!R}/,AX02xK5ttncb6R">
+                        <field name="INPUTNAME">PASSWORD</field>
+                        <field name="ALIGN">LEFT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="iI!rjiC|/4m!k?uk{%G/">
+                            <field name="TEXT">Password</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="aq}AG/N!Gyo,@?5cwN,G"></shadow>
+                          <block type="type_string" id="2`3q744IUL+/~^*BL^a2"></block>
+                        </value>
+                        <next>
+                          <block type="input_value" id="!zc)7d{NF;MKi`_cLcpa">
+                            <field name="INPUTNAME">PROJECT_ID</field>
+                            <field name="ALIGN">LEFT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="?4t!;6+)qOQD}D9rJLZ|">
+                                <field name="TEXT">Project ID</field>
+                              </block>
+                            </statement>
+                            <value name="TYPE">
+                              <shadow type="type_null" id="aq}AG/N!Gyo,@?5cwN,G"></shadow>
+                              <block type="type_string" id="p9|wk4)e]P~(dr-|r(w%"></block>
+                            </value>
+                            <next>
+                              <block type="input_value" id="9LK]Cw;3.!jJTxl.d)8(">
+                                <field name="INPUTNAME">AUTH_URL</field>
+                                <field name="ALIGN">LEFT</field>
+                                <statement name="FIELDS">
+                                  <block type="field_static" id="a+!im4%*{ymE1fZ0-zSM">
+                                    <field name="TEXT">Authentication URL</field>
+                                  </block>
+                                </statement>
+                                <value name="TYPE">
+                                  <shadow type="type_null" id="aq}AG/N!Gyo,@?5cwN,G"></shadow>
+                                  <block type="type_string" id="{+QCne*$`K^Fj6*}c:3-"></block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="eP8bL?2#k^x:8GKpoRZq"></shadow>
+      <block type="type_other" id="oe*z1G^fsclTyfnp7=19">
+        <field name="TYPE">novaclient</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="Soh]f$Ny5r{#rypeihi5">
+        <mutation colour="#a55b5b"></mutation>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="3vsS2_Ln,Ym5Z~Os)B`c" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">serverlist</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="r4_6ct-y+H06{Y)EC`jM">
+        <field name="INPUTNAME">nova_client</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="#?$54`0k+bbp@:WK:nla">
+            <field name="TEXT"></field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="TQwi]@s,VE*sE|.wBk9x"></shadow>
+          <block type="type_other" id="t;Yl2XpOdzG73t#WgO%L">
+            <field name="TYPE">novaclient</field>
+          </block>
+        </value>
+        <next>
+          <block type="input_dummy" id="U=0*n6m4|(!ZbF?yUji/">
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="XOP:$Sf-MkM?{i8!RX8e">
+                <field name="TEXT">.server.list()</field>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="Pq5c*k}egnh)f,*HLfiv"></shadow>
+      <block type="type_list" id="913UfbP#nB1Ty6OOfwr`"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="#Z{9:$MTIY%Q]~#zZsP!">
+        <mutation colour="#a55b5b"></mutation>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block></xml>
