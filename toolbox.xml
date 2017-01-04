@@ -320,5 +320,6 @@
     <block type="novaclient">
       <field name="VERSION">1</field>
     </block>
+    <block type="serverlist"></block>
   </category>
 </xml>
